@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 254, 254, 0.7);
+    padding: 2px;
+    border-radius: 5px;
+    width: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 254, 254, 0.7);
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .celebration {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: rgb(5, 7, 1);
+    display: block;
+  }
+  .new {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(237, 130, 130);
+    background-color: rgb(250, 240, 240)
+    display: block;
+  }
+ 
+  h3 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: red;
+    background-color: rgb(249, 226, 226);
+    display: inline-flexbox;
+  }
+  h1 {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: red;
+    background: white;
+    display: block;
+  }
+  .invitation-container {
+    display: flex;
+    position: absolute;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+   margin-left: 750px;
+    background-color: white;
+    position: relative;
+  }
+  .details-container{
+    margin-left: 1000px;
+    border-bottom: 1px;
+  }
+   /* 4th section start*/
+   .login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 800px;
+   
+  }
+  .place, .date-time, .login-button {
+    margin: 10px 0;
+  }
+
+  .login-button button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
+  /* 4th section end*/
+
+  /* bonus section start*/
+  .container-optional {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-right: 2000px;
+
+  }
+  .image-container{
+    max-width: fit-content;
+  }
+  .text-section { 
+    margin: 40px 30px;
+    display: block;
+  }
+  .image-box {
+    position: inline;
+    width: 450px; 
+    margin-right: 900px;
+  }
+  
+  .image-box {
+    height: 400px;
+    margin-right: 260px;
+    
+   
+  }
+  
+  .holiday-text {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ef6565;
+    padding: 10px;
+  }
+  
+  .holiday:hover {
+    text-decoration: underline;
+    box-sizing: border-box;
+  }
+  .my section{
+    margin-top: 10px;
+  }
+/* problem section start */
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1700px;
+  position: relative;
+  margin-top: -5;
+}
+.problem{
+  margin-left: 100px;
+  position: absolute;
+}
+.50% discount{
+  margin-left: 100px;
+  position: absolute;
+}
+.image-container img {
+  margin: 5px;
+  margin-top: 100px;
+}
+.bottom-image img{
+  margin: 5px;
+  position: absolute;
+}
+/* problem section end */
+/* product showing part start*/
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-info,
+.social-icons,
+.rights-reserved {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+}
+
+.unsubscribe-btn {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+10:25 PM
+/* product showing part end*/
+/*subscribe section start */
+.subscribe {
+  position: absolute;
+  margin-left: 2500px;
+  font-color: red;
+  display: block;
+  margin: 5px 10px 15px 15px;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.your-image {
+
+  max-width: 100%; 
+}
+.subscribe-section {
+  display: block;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*subscribe section end */
+
+
+/*footer section start*/
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  width: 200px ;
+  height: auto;
+  display: block;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+/*footer section end*/  
+
+
